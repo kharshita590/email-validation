@@ -17,7 +17,7 @@ export default function FileUpload() {
     fd.append("file", files[0]);
 
     try {
-      const response = await axios.post("https://email-validation-backend-5.onrender.com/message", fd, {
+      const response = await axios.post("https://email-validation-backend-6.onrender.com/message", fd, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
