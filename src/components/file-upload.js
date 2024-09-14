@@ -48,6 +48,7 @@ export default function FileUpload() {
         />
         <button
           onClick={uploadFile}
+          type="button"
           className="w-28 h-10 rounded-md font-mono bg-red-300"
         >
           Submit
