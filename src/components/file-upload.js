@@ -46,12 +46,13 @@ export default function FileUpload() {
           type="file"
           className=""
         />
-        <div
+        <button
           onClick={uploadFile}
+          type="button"
           className="w-28 h-10 rounded-md font-mono bg-red-300"
         >
           Submit
-        </div>
+        </button>
         {progress.started && (
           <progress max="100" value={progress.pc}></progress>
         )}
