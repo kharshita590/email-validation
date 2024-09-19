@@ -17,7 +17,7 @@ export default function FileUpload() {
     fd.append("file", files[0]);
 
     try {
-      const response = await axios.post("http://0.0.0.0:7500/message", fd, {
+      const response = await axios.post("http://0.0.0.0:7000/message", fd, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
