@@ -29,6 +29,7 @@ export default function FileUpload() {
         },
       });
       setData(response.data);
+      console.log(response.data);
       setMsg("Upload completed");
     } catch (error) {
       console.log(error);
